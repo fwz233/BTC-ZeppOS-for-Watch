@@ -1,0 +1,5 @@
+msgid "todoList"
+msgstr "显示价格"
+
+msgid "noData"
+msgstr "显示显示价格"

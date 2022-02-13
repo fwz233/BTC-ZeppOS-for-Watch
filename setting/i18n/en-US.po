@@ -1,0 +1,5 @@
+msgid "addTodo"
+msgstr "显示价格"
+
+msgid "delete"
+msgstr "显示价格"

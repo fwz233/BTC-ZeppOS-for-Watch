@@ -1,0 +1,159 @@
+{
+  "i18n": {
+    "en-US": {
+      "name": "显示价格"
+    }
+  },
+  "defaultLanguage": "en-US",
+  "app": {
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "appId": 101233,
+    "appName": "显示价格",
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "显示BTC价格",
+    "vernderId": 1
+  }, 
+  "permission": [
+    "network"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "gtr-3-pro": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gtr3-pro/home/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-widget": {
+          "widgets": []
+        },
+        "watchface": {
+          "path": ""
+        },
+        "watch-widget": {
+          "widgets": []
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "designWidth": 480,
+      "platforms": [{
+          "name": "madrid",
+          "deviceSource": 229
+        },
+        {
+          "name": "madridw",
+          "deviceSource": 230
+        }
+      ]
+    },
+    "gtr-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gtr-3/home/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-widget": {
+          "widgets": []
+        },
+        "watchface": {
+          "path": ""
+        },
+        "watch-widget": {
+          "widgets": []
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "designWidth": 454,
+      "platforms": [{
+          "name": "verona",
+          "deviceSource": 226
+        },
+        {
+          "name": "veronaw",
+          "deviceSource": 227
+        }
+      ]
+    },
+    "gts-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gts3/home/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        },
+        "app-widget": {
+          "widgets": []
+        },
+        "watchface": {
+          "path": ""
+        },
+        "watch-widget": {
+          "widgets": []
+        },
+        "app-side": {
+          "path": "app-side/index"
+        },
+        "setting": {
+          "path": "setting/index"
+        }
+      },
+      "designWidth": 390,
+      "platforms": [{
+          "name": "zurich",
+          "deviceSource": 224
+        },
+        {
+          "name": "zurichw",
+          "deviceSource": 225
+        }
+      ]
+    }
+  },
+  "configVersion": "v2",
+  "permissions": [],
+  "debug": false
+}
